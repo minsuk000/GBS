@@ -1,0 +1,13 @@
+Package: GBS
+Type: Package
+Title: Generative Bootstrap Sampler
+Version: 0.1.2
+Author: Minsuk Shin and Jun Liu
+Maintainer: Minsuk Shin <minuk000@gmail.com>
+Description: Generative Bootstrap Sampler (GBS): A scalble and fast bootstrap procedure for general models. You need to install python and pytorch in advance; see https://pytorch.org/get-started/locally/
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: reticulate, Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
